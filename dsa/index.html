@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DSA Learning Platform</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="shadow">
+    <div class="container">
+      <div style="display: flex; align-items: center; justify-content: space-between;">
+        <div style="display: flex; align-items: center; gap: 1rem;">
+          <img class="logo" src="logo.jpg" alt="Logo">
+          <h1>DSA Learning Platform</h1>
+        </div>
+        <nav>
+          <a href="#home">Home</a>
+          <a href="#resources">Resources</a>
+          <a href="#learning">Learning</a>
+          <a href="login.html">Login</a>
+          <a href="signup.html">Signup</a>
+          <button id="theme-toggle">🌙</button>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="fade-in hero">
+      <div class="container">
+        <h2>Master DSA with Ease</h2>
+        <p>Interactive content, curated resources, and real coding challenges — all in one place.</p>
+        <a href="#learning" class="btn">Start Learning</a>
+      </div>
+    </section>
+
+    <section id="resources" class="fade-in container">
+      <h2>Top Resources</h2>
+      <div class="cards">
+        <a href="https://leetcode.com/" target="_blank" class="card">LeetCode</a>
+        <a href="https://geeksforgeeks.org/" target="_blank" class="card">GeeksforGeeks</a>
+        <a href="https://www.codingninjas.com/" target="_blank" class="card">Coding Ninjas</a>
+      </div>
+    </section>
+    <section id="learning" class="fade-in container">
+      <h2>Video Tutorials</h2>
+    
+      <h3>Beginner Level</h3>
+      <div class="videos">
+        <iframe src="https://www.youtube.com/embed/8hly31xKli0" frameborder="0" allowfullscreen></iframe> <!-- Harvard - CS50 Intro -->
+        <iframe src="https://www.youtube.com/embed/WQoB2z67hvY" frameborder="0" allowfullscreen></iframe> <!-- Apna College - DSA for Placements -->
+        <iframe src="https://www.youtube.com/embed/z9bZufPHFLU" frameborder="0" allowfullscreen></iframe> <!-- Love Babbar - DSA Series -->
+        <iframe src="https://www.youtube.com/embed/WQoB2z67hvY" frameborder="0" allowfullscreen></iframe> <!-- Apna College - DSA for Placements -->
+      </div>
+    
+      <h3>Intermediate Level</h3>
+      <div class="videos">
+        <iframe src="https://www.youtube.com/embed/RBSGKlAvoiM" frameborder="0" allowfullscreen></iframe> <!-- FreeCodeCamp - DSA Full Course -->
+        <iframe src="https://www.youtube.com/embed/hCrO_cR7kno" frameborder="0" allowfullscreen></iframe> <!-- Jenny’s Lectures - DSA -->
+        <iframe src="https://www.youtube.com/embed/427pAhy9dI8" frameborder="0" allowfullscreen></iframe> <!-- CodeHelp - DSA Bootcamp -->
+        <iframe src="https://www.youtube.com/embed/0IAPZzGSbME" frameborder="0" allowfullscreen></iframe> <!-- Aditya Verma - DP Basics -->
+      </div>
+    
+      <h3>Advanced Level</h3>
+      <div class="videos">
+        <iframe src="https://www.youtube.com/embed/0IAPZzGSbME" frameborder="0" allowfullscreen></iframe> <!-- Aditya Verma - DP Basics -->
+        <iframe src="https://www.youtube.com/embed/8mAITcNt710" frameborder="0" allowfullscreen></iframe> <!-- Abdul Bari - Bubble Sort Explained -->
+        <!-- Add more advanced videos here if needed -->
+        <iframe src="https://www.youtube.com/embed/hCrO_cR7kno" frameborder="0" allowfullscreen></iframe> <!-- Jenny’s Lectures - DSA -->
+<iframe src="https://www.youtube.com/embed/yjdQHb2elqI" frameborder="0" allowfullscreen></iframe> <!-- GFG - Recursion Playlist -->
+      </div>
+    </section>
+    
+    <!-- <section id="login" class="fade-in container">
+      <h2>Login</h2>
+      <form id="login-form" class="auth-form">
+        <input type="text" id="username" name="username" placeholder="Username" required />
+        <input type="password" id="password" name="password" placeholder="Password" required />
+        <button type="submit" class="btn">Login</button>
+      </form>
+    </section>
+
+    <section id="signup" class="fade-in container">
+      <h2>Signup</h2>
+      
+      <form id="signup-form" class="auth-form">
+        <input type="text" id="new-username" name="new-username" placeholder="Username" required />
+        <input type="email" id="email" name="email" placeholder="Email" required />
+        <input type="password" id="new-password" name="new-password" placeholder="Password" required />
+        <button type="submit" class="btn">Signup</button>
+      </form>
+    </section> -->
+    
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 DSA Learning Platform™ | Created by <strong>Swaroop Gupta</strong></p>
+      <p class="contact-info">Email: <a href="mailto:swaroopgupta2005@gmail.com">swaroopgupta2005@gmail.com</a> | Phone: <a href="tel:+917985369919">+91 7985369919</a></p>
+      <style>
+        .contact-info a {
+          color: pink; 
+          text-decoration: none; 
+        }
+        </style>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
